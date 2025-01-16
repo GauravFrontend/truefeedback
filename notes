@@ -1,0 +1,10 @@
+mongoose is a ORM = have to check what it is 
+global = browser global is diffrent and node global is diffrent 
+
+mongoose types has connection or promise , meanse there might be a connection, or a promise that is also a connection
+
+have to look in to db.ts and learn it kind off 
+
+--------------------------------------------------------------------------------------
+
+49:21
