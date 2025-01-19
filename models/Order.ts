@@ -23,6 +23,7 @@ const orderSchema = new Schema(
     },
     razorpayOrderId: { type: String, required: true },
     razorpayPaymentId: { type: String, required: true },
+    amount: { type: Number, required: true, min: 0 },
   },
   { timestamps: true }
 );
