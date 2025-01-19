@@ -24,6 +24,11 @@ const orderSchema = new Schema(
     razorpayOrderId: { type: String, required: true },
     razorpayPaymentId: { type: String, required: true },
     amount: { type: Number, required: true, min: 0 },
+    status: {
+      type: String,
+      required: true,
+      enum: ["pending", "completed", "failed"],
+    },
   },
   { timestamps: true }
 );
